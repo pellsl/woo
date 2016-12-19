@@ -15,6 +15,7 @@ width:900px;
 background-color:yellow;
 margin:30px auto;
 overflow:hidden;
+padding:20px;
 }
 
 header{
@@ -31,16 +32,56 @@ margin:0px auto;
 header h1{
 text-align:center;
 font-size:3em;
+padding-bottom:20px;
 }
 
 header h2{
 display:block;
 text-align:center;
 font-size:1.5em;
+padding-bottom:20px;
 }
 
 p.return-top{
 text-align:center;
+}
+
+main h2{
+padding-top:30px;
+font-size:2em;
+padding-bottom:20px;
+line-height:1.5em;
+}
+
+main p{
+font-size:1em;
+padding-bottom:20px;
+padding-left:10px;
+padding-right:10px;
+line-height:1.5em;
+}
+
+footer{
+height:75px;
+background-color:rgb(52, 186, 213);;
+border-top:1px solid black;
+clear:both;
+margin-top:20px;
+}
+
+
+footer li{
+float:right;
+text-align:center;
+line-height:75px;
+width:20%;
+list-style-type:none;
+color:white;
+margin-bottom:15px;
+}
+
+footer a{
+color:white;
 }
 
 /*homepage*/
@@ -94,16 +135,16 @@ color:white;
 }
 
 #homepage li#about-trumpet-image{
-background:url('images/trumpet4_x400.jpg');
+background:url('https://dl.dropboxusercontent.com/s/ndq0w8j2fje1ecs/trumpet4_x400.jpg?dl=0');
 }
 #homepage li#itfarts-image{
-background:url('images/diver.jpg');
+background:url('https://dl.dropboxusercontent.com/s/a8djr31b7gozqfi/diver.jpg?dl=0');
 }
 #homepage li#woo-image{
-background:url('images/ocean_x400.jpg');
+background:url('https://dl.dropboxusercontent.com/s/plhqiqsqj9uv90a/ocean_x400.jpg?dl=0');
 }
 #homepage li#sightings-image{
-background:url('images/research-boats.jpg');
+background:url('https://dl.dropboxusercontent.com/s/9rvionj7ru4u2xi/research-boats.jpg?dl=0');
 }
 
 
@@ -116,61 +157,52 @@ color:white;
 border: 2.5px solid black;
 }
 
-main{
-background-color:yellow;
-line-height:1.5em;
-}
-
-main h2{
-padding-top:30px;
-font-size:2em;
-padding-bottom:20px;
-}
-
-main p{
-font-size:1em;
-padding-bottom:20px;
-padding-left:10px;
-padding-right:10px;
-}
-
-footer{
-height:75px;
-background-color:rgb(52, 186, 213);;
-border-top:1px solid black;
-clear:both;
-margin-top:20px;
+#trumpet-page nav, #itfarts-page nav, #woo-page nav, #sightings-page nav, #disclosures-page nav{
+margin-bottom:20px;
+overflow:hidden;
 }
 
 
-footer li{
-float:right;
-text-align:center;
-line-height:75px;
-width:20%;
+#trumpet-page nav ul, #itfarts-page nav ul, #woo-page nav ul, #sightings-page nav ul, #disclosures-page nav ul{
+display:block;
 list-style-type:none;
-color:white;
-margin-bottom:15px;
+text-align:center;
+line-height:50px;
 }
 
-footer a{
-color:white;
+#trumpet-page nav li, #itfarts-page nav li, #woo-page nav li, #sightings-page nav li,#disclosures-page nav li{
+float:left;
+width:20%;
+background-color:rgb(223,145,70);
+font-weight:regular;
 }
+
+#trumpet-page nav a, #itfarts-page nav a, #woo-page nav a, #sightings-page nav a, #disclosures-page nav a{
+display:block;
+color:black;
+text-decoration:none;
+}
+
+#trumpet-page nav a:hover, #itfarts-page nav a:hover, #woo-page nav a:hover, #sightings-page nav a:hover #disclosures-page nav a:hover{
+background-color:rgb(177,191,81);
+font-weight:bold;
+}
+
 
 /*about trumpet fish*/
 
-#trumpet-page .photo-bar{
+#trumpet-page .photo-bar, #woo-page .photo-bar{
 overflow:hidden;
 margin-bottom:30px;
 }
 
-#trumpet-page .photo-bar ul{
+#trumpet-page .photo-bar ul, #woo-page .photo-bar ul{
 list-style-type:none;
 clear:both;
 padding-top:30px;
 }
 
-#trumpet-page .photo-bar li{
+#trumpet-page .photo-bar li, #woo-page .photo-bar li{
 display:inline;
 float:left;
 width:32.7%;
@@ -185,12 +217,71 @@ height:210px;
 height:300px;
 }
 
+#bar3 li{
+height:200px;
+}
+
 .left{
 float:left;
 margin-right:10px;
 }
 
+.right{
+float:right;
+margin-left:10px;
+}
+
 .text-clear{
 clear:both;
 padding-top:20px;
+}
+
+#diving-bell{
+height:250px;
+}
+
+/*ITFARTS*/
+
+
+/*Sightings*/
+
+#sightings-page form{
+width:100%;
+padding:10px 20px 20px 20px;
+}
+
+#sightings-page h1{
+padding-bottom:20px;
+}
+
+#sightings-page label{
+display:block;
+float:left;
+width:35%;
+}
+
+#sightings-page input{
+display:inline;
+width:30%
+}
+
+#sightings-page #infolabel{
+padding-top:10px;
+clear:both;
+width:40%;
+}
+
+#sightings-page textarea{
+width:95%;
+margin:10px auto;
+}
+
+.buttoninput{
+width:150px;
+height:25px;
+float:right;
+margin-right:40px;
+background-color:rgb(255, 71, 63);
+font-weight:bold;
+margin-bottom:20px;
 }
