@@ -247,7 +247,6 @@ height:250px;
 
 #sightings-page form{
 width:100%;
-padding:10px 20px 20px 20px;
 }
 
 #sightings-page h1{
@@ -255,28 +254,35 @@ padding-bottom:20px;
 }
 
 #sightings-page label{
-display:block;
+display:inline;
 float:left;
+clear:both;
 width:35%;
+line-height:2em;
+margin-bottom:10px;
 }
 
-#sightings-page input{
+#sightings-page input[type="text"],#sightings-page input[type="email"],#sightings-page input[type="number"],#sightings-page input[type="time"],#sightings-page input[type="date"]{
 display:inline;
-width:30%
+float:left;
+width:30%;
+margin-bottom:10px;
+height:2em;
 }
 
 #sightings-page #infolabel{
 padding-top:10px;
+width:50%;
 clear:both;
-width:40%;
 }
 
 #sightings-page textarea{
+display:block;
 width:95%;
 margin:10px auto;
 }
 
-.buttoninput{
+#submit-button{
 width:150px;
 height:25px;
 float:right;
@@ -284,4 +290,5 @@ margin-right:40px;
 background-color:rgb(255, 71, 63);
 font-weight:bold;
 margin-bottom:20px;
+margin-top:20px;
 }
