@@ -45,6 +45,11 @@ padding-bottom:20px;
 
 p.return-top{
 text-align:center;
+clear:both;
+}
+
+p.return-top a{
+color:rgb(223,145,70);
 }
 
 main h2{
@@ -61,7 +66,7 @@ padding-left:10px;
 padding-right:10px;
 line-height:1.5em;
 font-family: 'Raleway', sans-serif;
-font-weight:bold;
+font-weight:bolder;
 }
 
 footer{
