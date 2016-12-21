@@ -61,6 +61,7 @@ padding-left:10px;
 padding-right:10px;
 line-height:1.5em;
 font-family: 'Raleway', sans-serif;
+font-weight:bold;
 }
 
 footer{
@@ -160,6 +161,8 @@ color:white;
 border: 2.5px solid black;
 }
 
+/*trumpet page*/
+
 #trumpet-page nav, #itfarts-page nav, #woo-page nav, #sightings-page nav, #disclosures-page nav{
 margin-bottom:20px;
 overflow:hidden;
@@ -220,18 +223,16 @@ height:210px;
 height:300px;
 }
 
-#bar3 li{
-height:200px;
-}
-
 .left{
 float:left;
-margin-right:10px;
+margin-right:15px;
+margin-bottom:10px;
 }
 
 .right{
 float:right;
-margin-left:10px;
+margin-left:15px;
+margin-bottom:10px;
 }
 
 .text-clear{
@@ -239,12 +240,32 @@ clear:both;
 padding-top:20px;
 }
 
-#diving-bell{
-height:250px;
-}
-
 /*ITFARTS*/
 
+
+/*WOO*/
+
+#diving-bell{
+width:150px;
+}
+
+#woo-page div#diver{
+width:150px;
+overflow:hidden;
+background-color:rgb(177,191,81);
+}
+
+#woo-page #diver p{
+font-size:.5em;
+}
+
+#bar3{
+clear:both;
+}
+
+#bar3 li{
+height:200px;
+}
 
 /*Sightings*/
 
